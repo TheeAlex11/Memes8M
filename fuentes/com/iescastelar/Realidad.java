@@ -1,5 +1,3 @@
-package com.iescastelar;
-
 /**
  * Representa un dato real que desmiente un meme sobre igualdad de género.
  */

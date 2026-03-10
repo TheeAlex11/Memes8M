@@ -1,5 +1,3 @@
-package com.iescastelar;
-
 /**
  * Representa un meme con un bulo sobre igualdad de género.
  */

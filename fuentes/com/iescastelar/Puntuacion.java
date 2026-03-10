@@ -1,5 +1,3 @@
-package com.iescastelar;
-
 /**
  * Representa una puntuación obtenida por un usuario en el juego.
  */
