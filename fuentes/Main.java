@@ -3,23 +3,36 @@ import java.util.Map;
 import java.util.ArrayList;
 
 /**
- * Clase principal del proyecto Memes 8M.
+ * Clase principal del programa Memes 8M.
+ *
+ * <p>Esta clase es la que arranca el programa. Se encarga de llamar a los metodos
+ * necesarios para cargar los datos, iniciar el juego y mostrar las puntuaciones.</p>
  */
 public class Main {
 
+    /**
+     * Metodo principal que ejecuta el programa.
+     *
+     * <p>Primero comprueba que los ficheros esten bien, luego lee los memes,
+     * las realidades y las soluciones. Despues crea el juego y lo inicia.
+     * Al terminar guarda las puntuaciones y las muestra por pantalla.
+     * Si hay algun error al cargar los datos el programa se cierra.</p>
+     *
+     * @param args argumentos que se pasan por linea de comandos, no se usan.
+     */
     public static void main(String[] args) {
 
         try {
             GestorFicheros.comprobarFicherosDatos();
         } catch (Exception e) {
-            System.err.println("❌ ERROR: " + e.getMessage());
+            System.err.println("ERROR: " + e.getMessage());
             System.exit(1);
         }
 
         try {
             GestorFicheros.prepararResultados();
         } catch (Exception e) {
-            System.err.println("❌ ERROR al preparar resultados: " + e.getMessage());
+            System.err.println("ERROR al preparar resultados: " + e.getMessage());
             System.exit(1);
         }
 
@@ -27,7 +40,7 @@ public class Main {
         try {
             memes = GestorFicheros.leerMemes();
         } catch (Exception e) {
-            System.err.println("❌ ERROR al leer memes: " + e.getMessage());
+            System.err.println("ERROR al leer memes: " + e.getMessage());
             System.exit(1);
             return;
         }
@@ -36,7 +49,7 @@ public class Main {
         try {
             realidades = GestorFicheros.leerRealidades();
         } catch (Exception e) {
-            System.err.println("❌ ERROR al leer realidades: " + e.getMessage());
+            System.err.println("ERROR al leer realidades: " + e.getMessage());
             System.exit(1);
             return;
         }
@@ -45,7 +58,7 @@ public class Main {
         try {
             soluciones = GestorFicheros.leerSoluciones();
         } catch (Exception e) {
-            System.err.println("❌ ERROR al leer soluciones: " + e.getMessage());
+            System.err.println("ERROR al leer soluciones: " + e.getMessage());
             System.exit(1);
             return;
         }
@@ -65,20 +78,20 @@ public class Main {
         try {
             GestorFicheros.guardarPuntuaciones(puntuaciones);
         } catch (Exception e) {
-            System.err.println("⚠️ No se pudieron guardar las puntuaciones.");
+            System.err.println("No se pudieron guardar las puntuaciones.");
         }
 
-        System.out.println("\n🏆 MEJORES PUNTUACIONES:");
-        System.out.println("──────────────────────────────────────────");
+        System.out.println("\nMEJORES PUNTUACIONES:");
+        System.out.println("------------------------------------------");
         if (puntuaciones.isEmpty()) {
-            System.out.println("   Aún no hay puntuaciones registradas.");
+            System.out.println("   Aun no hay puntuaciones registradas.");
         } else {
             for (int i = 0; i < puntuaciones.size(); i++) {
                 Puntuacion p = puntuaciones.get(i);
-                System.out.println("  " + (i + 1) + ". " + p.getNombre() + " → " + p.getPuntos() + " puntos");
+                System.out.println("  " + (i + 1) + ". " + p.getNombre() + " -> " + p.getPuntos() + " puntos");
             }
         }
 
-        System.out.println("\n👋 ¡Gracias por jugar! Feliz 8M 💜\n");
+        System.out.println("\nGracias por jugar! Feliz 8M\n");
     }
 }
