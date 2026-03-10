@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "texto": "Según la Encuesta de Estructura Salarial del INE (2022), las mujeres ganan de media un 21,9% menos que los hombres, lo que refleja una brecha salarial real y documentada.",
+    "fuente": "INE - Encuesta de Estructura Salarial 2022",
+    "url": "https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177025"
+  },
+  {
+    "id": 2,
+    "texto": "El informe 'Mujeres en la empresa' de MSCI (2023) muestra que solo el 20,2% de los puestos directivos en empresas del IBEX 35 están ocupados por mujeres.",
+    "fuente": "CNMV - Informe de Gobierno Corporativo 2023",
+    "url": "https://www.cnmv.es/portal/Publicaciones/PublicacionesGN.aspx?id=65"
+  },
+  {
+    "id": 3,
+    "texto": "Según el Ministerio del Interior, el 86% de las víctimas de violencia de género en España son mujeres. En 2023 se registraron 27.936 denuncias por violencia de género.",
+    "fuente": "Ministerio del Interior - Estadística de Violencia Doméstica y de Género 2023",
+    "url": "https://www.interior.gob.es/opencms/es/servicios-al-ciudadano/estadistica/estadisticas-de-seguridad/"
+  },
+  {
+    "id": 4,
+    "texto": "El informe 'Women in Tech' de la UE (2022) señala que las mujeres representan solo el 19% de los profesionales TIC en Europa, no por falta de interés sino por barreras estructurales y estereotipos de género en educación.",
+    "fuente": "Comisión Europea - Women in Digital Scoreboard 2022",
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/women-digitech"
+  },
+  {
+    "id": 5,
+    "texto": "Eurostat confirma que la brecha salarial de género en la UE es del 12,7% (2022). En España, el INE la sitúa en torno al 22% al considerar salarios anuales, debido también a jornadas parciales involuntarias.",
+    "fuente": "Eurostat - Gender pay gap statistics 2022 / INE 2022",
+    "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php/Gender_pay_gap_statistics"
+  },
+  {
+    "id": 6,
+    "texto": "Según el Ministerio de Universidades, el acceso a becas es igual para todos los estudiantes sin distinción de género. Los datos muestran que más mujeres acceden a la universidad (55%) pero no por ello reciben más financiación.",
+    "fuente": "Ministerio de Universidades - Estadísticas Universitarias 2022-2023",
+    "url": "https://www.universidades.gob.es/estadisticas/"
+  },
+  {
+    "id": 7,
+    "texto": "El Ministerio de Igualdad registró en 2022 más de 11.500 denuncias por acoso sexual y/o por razón de sexo en el ámbito laboral, mostrando que sigue siendo un problema real y presente.",
+    "fuente": "Ministerio de Igualdad - Informe anual 2022",
+    "url": "https://www.igualdad.gob.es/comunicacion/informes/"
+  },
+  {
+    "id": 8,
+    "texto": "Según la EPA (INE, 2023), las mujeres tienen más bajas laborales en parte por asumir mayores cargas de cuidado y por condiciones de empleo precarias, no por voluntad propia. Además, los embarazos y partos son causas médicas objetivas.",
+    "fuente": "INE - Encuesta de Población Activa 2023",
+    "url": "https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736176918"
+  }
+]

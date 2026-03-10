@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soluciones>
+    <solucion>
+        <meme_id>1</meme_id>
+        <realidad_id>1</realidad_id>
+    </solucion>
+    <solucion>
+        <meme_id>2</meme_id>
+        <realidad_id>2</realidad_id>
+    </solucion>
+    <solucion>
+        <meme_id>3</meme_id>
+        <realidad_id>3</realidad_id>
+    </solucion>
+    <solucion>
+        <meme_id>4</meme_id>
+        <realidad_id>4</realidad_id>
+    </solucion>
+    <solucion>
+        <meme_id>5</meme_id>
+        <realidad_id>5</realidad_id>
+    </solucion>
+    <solucion>
+        <meme_id>6</meme_id>
+        <realidad_id>6</realidad_id>
+    </solucion>
+    <solucion>
+        <meme_id>7</meme_id>
+        <realidad_id>7</realidad_id>
+    </solucion>
+    <solucion>
+        <meme_id>8</meme_id>
+        <realidad_id>8</realidad_id>
+    </solucion>
+</soluciones>
