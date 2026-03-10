@@ -12,19 +12,11 @@ Estado: Terminado ✅
 
 HU3 – Leer memes.txt y generar objetos Meme
 Persona asignada: Vicente
-<<<<<<< HEAD
 Estado: Pendiente ✅
 
 HU4 – Leer realidades.json y generar objetos Realidad
 Persona asignada: Vicente
 Estado: Pendiente ✅
-=======
-Estado: Terminado ✅
-
-HU4 – Leer realidades.json y generar objetos Realidad
-Persona asignada: Vicente
-Estado: Terminado ✅
->>>>>>> 4cdd7b922293a388d2e2758cacbe34f868f5b4f6
 
 HU5 – Mostrar meme aleatorio y lista numerada de realidades
 Persona asignada: Izan y Vicente
@@ -44,19 +36,11 @@ Estado: Pendiente ✅
 
 HU9 – Guardar puntuación en top 3 en fichero
 Persona asignada: Alejandro y Vicente
-<<<<<<< HEAD
 Estado: Pendiente ✅
 
 HU10 – Mostrar ranking de mejores puntuaciones
 Persona asignada: Alejandro
 Estado: Pendiente ✅
-=======
-Estado: Terminado ✅
-
-HU10 – Mostrar ranking de mejores puntuaciones
-Persona asignada: Alejandro
-Estado: Terminado ✅
->>>>>>> 4cdd7b922293a388d2e2758cacbe34f868f5b4f6
 
 TAREAS TECNICAS
 
