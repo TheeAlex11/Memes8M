@@ -45,11 +45,13 @@ El juego presenta **5 rondas aleatorias**. En cada ronda:
 ## ⚙️ Compilar y Ejecutar
 
 ```bash
-# Compilar
-javac -d bin src/*.java
+# Compilar programa
+javac -cp .;lib/json-20240303.jar -d out fuentes/com/iescastelar/*.java y
+ejecucion -> java -cp out;lib/json-20240303.jar com.iescastelar.Main
 
-# Ejecutar
-java -cp bin Main
+# Compilar tests
+ompilar tests javac -cp "out;lib/json-20240303.jar;lib/junit-platform-console-standalone-1.10.2.jar;lib/junit-jupiter-api-5.10.2.jar" -d out fuentes\com\iescastelar\tests\MemeTest.java
+Ejecutar tests: java -jar lib/junit-platform-console-standalone-1.10.2.jar -cp "out;lib/json-20240303.jar;lib/junit-jupiter-api-5.10.2.jar;lib/junit-jupiter-engine-5.10.2.jar" --select-class=com.iescastelar.tests.MemeTest
 ```
 
 > 📚 Consulta [`documentacion/instalacion.md`](documentacion/instalacion.md) para instrucciones detalladas.
