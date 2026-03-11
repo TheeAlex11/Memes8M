@@ -46,13 +46,13 @@ El juego presenta **5 rondas aleatorias**. En cada ronda:
 
 ```bash
 # Compilar programa
-javac -cp .;lib/json-20240303.jar -d out fuentes/com/iescastelar/*.java y
-ejecucion -> java -cp out;lib/json-20240303.jar com.iescastelar.Main
+javac -cp "lib/json-20251224.jar" -d compilados fuentes/*.java
+
+ejecucion ->java -cp "compilados;lib/json-20251224.jar" Main
 
 # Compilar tests
-ompilar tests javac -cp "out;lib/json-20240303.jar;lib/junit-platform-console-standalone-1.10.2.jar;lib/junit-jupiter-api-5.10.2.jar" -d out fuentes\com\iescastelar\tests\MemeTest.java
-Ejecutar tests: java -jar lib/junit-platform-console-standalone-1.10.2.jar -cp "out;lib/json-20240303.jar;lib/junit-jupiter-api-5.10.2.jar;lib/junit-jupiter-engine-5.10.2.jar" --select-class=com.iescastelar.tests.MemeTest
-```
+ompilar tests javac -cp "compilados;lib/json-20251224.jar;tests/lib/junit-jupiter-api-5.9.2.jar" -d compilados tests/*.java fuentes/*.java
+Ejecutar tests: java -jar tests/lib/junit-platform-console-standalone-1.9.2.jar -cp "compilados;lib/json-20251224.jar;tests/lib/junit-jupiter-api-5.9.2.jar;tests/lib/junit-jupiter-engine-5.9.2.jar" --scan-classpath
 
 > 📚 Consulta [`documentacion/instalacion.md`](documentacion/instalacion.md) para instrucciones detalladas.
 
