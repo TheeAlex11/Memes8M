@@ -1,2 +1,3 @@
-izan#0
-izan#0
+Alice#150
+Bob#120
+Charlie#90
