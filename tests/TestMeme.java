@@ -3,7 +3,7 @@
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-public class MemeTest {
+public class TestMeme {
 
     @Test
     void testGetId() {
