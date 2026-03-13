@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html","k":"18"},{"p":"<Unnamed>","l":"GestorFicheros"},{"p":"<Unnamed>","l":"Juego"},{"p":"<Unnamed>","l":"Main"},{"p":"<Unnamed>","l":"Meme"},{"p":"<Unnamed>","l":"Puntuacion"},{"p":"<Unnamed>","l":"Realidad"}];updateSearchResults();
