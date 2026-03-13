@@ -61,10 +61,10 @@ javac -cp .:lib/json-20240303.jar -d out fuentes/com/iescastelar/*.java
 
 **Windows:**
 ```cmd
-javac -cp .;lib\json-20240303.jar -d out fuentes\com\iescastelar\*.java
+javac -cp "lib/json-20251224.jar" -d compilados fuentes/*.java
 ```
 
-Esto generará los `.class` en la carpeta `out/`.
+Esto generará los `.class` en la carpeta.
 
 ---
 
