@@ -51,7 +51,7 @@ javac -cp "lib/json-20251224.jar" -d compilados fuentes/*.java
 ejecucion ->java -cp "compilados;lib/json-20251224.jar" Main
 
 # Compilar tests
-ompilar tests javac -cp "compilados;lib/json-20251224.jar;tests/lib/junit-jupiter-api-5.9.2.jar" -d compilados tests/*.java fuentes/*.java
+Compilar tests javac -cp "compilados;lib/json-20251224.jar;tests/lib/junit-jupiter-api-5.9.2.jar" -d compilados tests/*.java fuentes/*.java
 Ejecutar tests: java -jar tests/lib/junit-platform-console-standalone-1.9.2.jar -cp "compilados;lib/json-20251224.jar;tests/lib/junit-jupiter-api-5.9.2.jar;tests/lib/junit-jupiter-engine-5.9.2.jar" --scan-classpath
 
 > 📚 Consulta [`documentacion/instalacion.md`](documentacion/instalacion.md) para instrucciones detalladas.
