@@ -36,36 +36,140 @@ El juego presenta **5 rondas aleatorias**. En cada ronda:
 
 ## 📁 Estructura del Proyecto
 
-Memes8M
-│   README.md
-│   BackLog.md
-│
-├── compilados/        # Clases .class compiladas
-├── datos/             # Ficheros de datos del juego
-│   ├── memes.txt
-│   ├── realidades.json
-│   └── soluciones.xml
-│
-├── documentacion/     # Manuales y javadoc
-│   ├── instalacion.md
-│   ├── manual_usuario.md
-│   ├── Memes-8M-Manual_Usuario.pdf
-│   └── javadoc/
-│
-├── fuentes/           # Código fuente del programa
-│   ├── GestorFicheros.java
-│   ├── Juego.java
-│   ├── Main.java
-│   ├── Meme.java
-│   ├── Puntuacion.java
-│   └── Realidad.java
-│
-├── tests/             # Tests JUnit
-│
-├── resultados/        # Resultados generados por el juego
-│   └── mejores.txt
-│
-└── lib/               # Librerías externas (JUnit, JSON)
+|   .gitignore
+|   BackLog.md
+|   herramientas.txt
+|   README.md
+|
++---compilados
+|       GestorFicheros.class
+|       Juego.class
+|       Main.class
+|       Meme.class
+|       MemeTest.class
+|       Puntuacion.class
+|       Realidad.class
+|       TestGestorFicheros.class
+|       TestJuego.class
+|       TestPuntuacion.class
+|       TestRealidad.class
+|
++---datos
+|       memes.txt
+|       realidades.json
+|       soluciones.xml
+|
++---documentacion
+|   |   instalacion.md
+|   |   manual_usuario.md
+|   |   Memes-8M-Manual_Usuario.pdf
+|   |
+|   \---javadoc
+|       |   allclasses-index.html
+|       |   allpackages-index.html
+|       |   element-list
+|       |   GestorFicheros.html
+|       |   help-doc.html
+|       |   index-all.html
+|       |   index.html
+|       |   Juego.html
+|       |   Main.html
+|       |   member-search-index.js
+|       |   Meme.html
+|       |   module-search-index.js
+|       |   overview-tree.html
+|       |   package-search-index.js
+|       |   package-summary.html
+|       |   package-tree.html
+|       |   Puntuacion.html
+|       |   Realidad.html
+|       |   search.html
+|       |   tag-search-index.js
+|       |   type-search-index.js
+|       |
+|       +---legal
+|       |       COPYRIGHT
+|       |       dejavufonts.md
+|       |       jquery.md
+|       |       jqueryUI.md
+|       |       LICENSE
+|       |
+|       +---resource-files
+|       |   |   copy.svg
+|       |   |   glass.svg
+|       |   |   jquery-ui.min.css
+|       |   |   left.svg
+|       |   |   link.svg
+|       |   |   right.svg
+|       |   |   stylesheet.css
+|       |   |   x.svg
+|       |   |
+|       |   \---fonts
+|       |           dejavu.css
+|       |           DejaVuLGCSans-Bold.woff
+|       |           DejaVuLGCSans-Bold.woff2
+|       |           DejaVuLGCSans-BoldOblique.woff
+|       |           DejaVuLGCSans-BoldOblique.woff2
+|       |           DejaVuLGCSans-Oblique.woff
+|       |           DejaVuLGCSans-Oblique.woff2
+|       |           DejaVuLGCSans.woff
+|       |           DejaVuLGCSans.woff2
+|       |           DejaVuLGCSansMono-Bold.woff
+|       |           DejaVuLGCSansMono-Bold.woff2
+|       |           DejaVuLGCSansMono-BoldOblique.woff
+|       |           DejaVuLGCSansMono-BoldOblique.woff2
+|       |           DejaVuLGCSansMono-Oblique.woff
+|       |           DejaVuLGCSansMono-Oblique.woff2
+|       |           DejaVuLGCSansMono.woff
+|       |           DejaVuLGCSansMono.woff2
+|       |           DejaVuLGCSerif-Bold.woff
+|       |           DejaVuLGCSerif-Bold.woff2
+|       |           DejaVuLGCSerif-BoldItalic.woff
+|       |           DejaVuLGCSerif-BoldItalic.woff2
+|       |           DejaVuLGCSerif-Italic.woff
+|       |           DejaVuLGCSerif-Italic.woff2
+|       |           DejaVuLGCSerif.woff
+|       |           DejaVuLGCSerif.woff2
+|       |
+|       \---script-files
+|               jquery-3.7.1.min.js
+|               jquery-ui.min.js
+|               script.js
+|               search-page.js
+|               search.js
+|
++---fuentes
+|   |   GestorFicheros.java
+|   |   Juego.java
+|   |   Main.java
+|   |   Meme.java
+|   |   Puntuacion.java
+|   |   Realidad.java
+|   |
+|   \---lib
+|           json-20251224.jar
+|
++---lib
+|       json-20251224.jar
+|       junit-jupiter-api-5.10.2.jar
+|       junit-jupiter-engine-5.10.2.jar
+|       junit-platform-console-standalone-1.10.2.jar
+|
++---resultados
+|       .gitkeep
+|       mejores.txt
+|
+\---tests
+    |   TestGestorFicheros.java
+    |   TestJuego.java
+    |   TestMeme.java
+    |   TestPuntuacion.java
+    |   TestRealidad.java
+    |
+    \---lib
+            junit-jupiter-api-5.9.2.jar
+            junit-jupiter-engine-5.9.2.jar
+            junit-platform-console-standalone-1.9.2.jar
 
 ## ⚙️ Compilar y Ejecutar
 
