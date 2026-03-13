@@ -21,7 +21,7 @@ javac -version
 Clona el repositorio desde el aula virtual o GitHub:
 
 ```bash
-git clone <URL_DEL_REPOSITORIO>
+git clone <https://github.com/TheeAlex11/Memes8M.git>
 cd memes8m
 ```
 
@@ -86,9 +86,8 @@ java -cp out;lib\json-20240303.jar com.iescastelar.Main
 
 ## 6. Generar el Manual del Programador (Javadoc)
 
-```bash
-javadoc -cp lib/json-20240303.jar -d documentacion/javadoc -encoding UTF-8 fuentes/com/iescastelar/*.java
-```
+```Windows en caso de que no este en el Path
+"C:\Program Files\Java\jdk-21.x.x\bin\javadoc" -d documentacion/javadoc -cp fuentes/lib/json-20251224.jar fuentes/*.java -encoding UTF-8 -charset UTF-8 -docencoding UTF-8```
 
 La documentación HTML se generará en `documentacion/javadoc/`.
 
