@@ -48,7 +48,7 @@ El juego presenta **5 rondas aleatorias**. En cada ronda:
 # Compilar programa
 javac -cp "lib/json-20251224.jar" -d compilados fuentes/*.java
 
-ejecucion ->java -cp "compilados;lib/json-20251224.jar" Main
+Ejecucion ->java -cp "compilados;lib/json-20251224.jar" Main
 
 # Compilar tests
 Compilar tests javac -cp "compilados;lib/json-20251224.jar;tests/lib/junit-jupiter-api-5.9.2.jar" -d compilados tests/*.java fuentes/*.java
