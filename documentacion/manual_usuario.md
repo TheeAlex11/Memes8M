@@ -108,9 +108,9 @@ Al final siempre se muestra el ranking:
 ```
  MEJORES PUNTUACIONES:
 ──────────────────────────────────────────
-  1. María → 5 puntos
-  2. Ana → 4 puntos
-  3. Lucía → 3 puntos
+  1. Izan → 5 puntos
+  2. Vicente → 4 puntos
+  3. Alejandro → 3 puntos
 
  ¡Gracias por jugar! Feliz 8M 💜
 ```
