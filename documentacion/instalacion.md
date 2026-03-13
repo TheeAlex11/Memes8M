@@ -21,7 +21,7 @@ javac -version
 Clona el repositorio desde el aula virtual o GitHub:
 
 ```bash
-git clone <URL_DEL_REPOSITORIO>
+git clone <https://github.com/TheeAlex11/Memes8M.git>
 cd memes8m
 ```
 
