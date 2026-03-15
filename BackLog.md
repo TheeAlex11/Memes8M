@@ -9,15 +9,15 @@
 | ID | 📝 Descripción | 👤 Asignado a | 🏷️ Estado |
 |----|----------------|--------------|-----------|
 | **HU1** | Comprobar existencia de directorio `datos/` y ficheros (`memes.txt`, `realidades.json`, `soluciones.xml`) | Izan | 🔄 En progreso |
-| **HU2** | Comprobar y crear fichero `resultados/mejores.txt` | Izan, Alejandro | 🔄 En progreso |
-| **HU3** | Leer `memes.txt` y generar objetos `Meme` | Vicente | 🔄 En progreso |
-| **HU4** | Leer `realidades.json` y generar objetos `Realidad` | Vicente | 🔄 En progreso |
-| **HU5** | Mostrar meme aleatorio y lista numerada de realidades | Izan, Vicente | 🔄 En progreso |
-| **HU6** | Validar la respuesta del usuario y sumar puntos | Alejandro | 🔄 En progreso |
-| **HU7** | Mostrar marcador y repetir hasta 5 memes | Izan, Alejandro | 🔄 En progreso |
-| **HU8** | Mostrar puntuación final | Izan, Alejandro | 🔄 En progreso |
-| **HU9** | Guardar puntuación en top 3 en fichero | Alejandro, Vicente | 🔄 En progreso |
-| **HU10** | Mostrar ranking de mejores puntuaciones | Alejandro | 🔄 En progreso |
+| **HU2** | Comprobar y crear fichero `resultados/mejores.txt` | Izan, Alejandro | ✅ Terminado  |
+| **HU3** | Leer `memes.txt` y generar objetos `Meme` | Vicente | ✅ Terminado  |
+| **HU4** | Leer `realidades.json` y generar objetos `Realidad` | Vicente | ✅ Terminado  |
+| **HU5** | Mostrar meme aleatorio y lista numerada de realidades | Izan, Vicente | ✅ Terminado  |
+| **HU6** | Validar la respuesta del usuario y sumar puntos | Alejandro | ✅ Terminado  |
+| **HU7** | Mostrar marcador y repetir hasta 5 memes | Izan, Alejandro | ✅ Terminado  |
+| **HU8** | Mostrar puntuación final | Izan, Alejandro | ✅ Terminado  |
+| **HU9** | Guardar puntuación en top 3 en fichero | Alejandro, Vicente | ✅ Terminado  |
+| **HU10** | Mostrar ranking de mejores puntuaciones | Alejandro | ✅ Terminado |
 
 ---
 
@@ -39,8 +39,8 @@
 
 | ID | 📄 Descripción | 👤 Asignado a | 🏷️ Estado |
 |----|----------------|--------------|-----------|
-| **TD1** | Manual de Instalación | Vicente | 🔄 Pendiente |
-| **TD2** | Manual de Usuario | Izan | 🔄 Pendiente |
+| **TD1** | Manual de Instalación | Vicente | ✅ Terminado  |
+| **TD2** | Manual de Usuario | Izan | ✅ Terminado  |
 | **TD3** | Manual del Programador (Javadoc) | Alejandro | 🔄 Pendiente |
 
 ---

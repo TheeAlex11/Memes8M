@@ -175,13 +175,13 @@ El juego presenta **5 rondas aleatorias**. En cada ronda:
 
 ```bash
 # Compilar programa
-javac -cp "lib/json-20251224.jar" -d compilados fuentes/*.java
+javac -cp "lib/json-20251224.jar" -d compilados fuentes/com/iescastelar/*.java
 
 # Ejecutar programa
 java -cp "compilados;lib/json-20251224.jar" Main
 
 # Compilar tests
-javac -cp "compilados;lib/json-20251224.jar;tests/lib/junit-jupiter-api-5.9.2.jar" -d compilados tests/*.java fuentes/*.java
+javac -cp "compilados;lib/json-20251224.jar;tests/lib/junit-jupiter-api-5.9.2.jar" -d compilados tests/*.java fuentes/com/iescastelar/*.java
 
 #Ejecutar tests
 java -jar tests/lib/junit-platform-console-standalone-1.9.2.jar -cp "compilados;lib/json-20251224.jar;tests/lib/junit-jupiter-api-5.9.2.jar;tests/lib/junit-jupiter-engine-5.9.2.jar" --scan-classpath
