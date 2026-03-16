@@ -8,7 +8,7 @@
 
 | ID | 📝 Descripción | 👤 Asignado a | 🏷️ Estado |
 |----|----------------|--------------|-----------|
-| **HU1** | Comprobar existencia de directorio `datos/` y ficheros (`memes.txt`, `realidades.json`, `soluciones.xml`) | Izan | 🔄 En progreso |
+| **HU1** | Comprobar existencia de directorio `datos/` y ficheros (`memes.txt`, `realidades.json`, `soluciones.xml`) | Izan | ✅ Terminado |
 | **HU2** | Comprobar y crear fichero `resultados/mejores.txt` | Izan, Alejandro | ✅ Terminado  |
 | **HU3** | Leer `memes.txt` y generar objetos `Meme` | Vicente | ✅ Terminado  |
 | **HU4** | Leer `realidades.json` y generar objetos `Realidad` | Vicente | ✅ Terminado  |
