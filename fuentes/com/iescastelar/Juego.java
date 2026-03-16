@@ -137,8 +137,9 @@ public class Juego {
      * @return el objeto {@link Realidad} correspondiente, o null si no se encuentra.
      */
     private Realidad buscarRealidadPorId(Integer id) {
-        for (Realidad r : realidades) {
-            if (r.getId() == id) return r;
+        for (Realidad realidad : realidades) {
+            if (realidad.getId() == id) 
+                return realidad;
         }
         return null;
     }
