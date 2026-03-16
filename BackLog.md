@@ -59,7 +59,7 @@
 
 | 📂 Categoría | ✅ Terminadas | 🔄 Pendientes | 📈 Completado |
 |-------------|:------------:|:-------------:|:-------------:|
-| Historias de Usuario | 0 | 10 | 33% |
+| Historias de Usuario | 20 | 0 | 100% |
 | Tareas Técnicas | 7 | 0 | 100% |
-| Tareas de Documentación | 0 | 3 | 0% |
-| **TOTAL** | **7** | **13** | **25%** |
+| Tareas de Documentación | 3 | 0 | 100% |
+| **TOTAL** | **30** | **0** | **100%** |
