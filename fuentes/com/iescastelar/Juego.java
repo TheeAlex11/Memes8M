@@ -70,7 +70,7 @@ public class Juego {
         for (int ronda = 1; ronda <= memesPartida.size(); ronda++) {
             Meme meme = memesPartida.get(ronda - 1);
             System.out.println("──────────────────────────────────────────");
-            System.out.println("🔹 Ronda " + ronda + " de " + TOTAL_RONDAS);
+            System.out.println("Ronda " + ronda + " de " + TOTAL_RONDAS);
             System.out.println(meme);
             System.out.println("\n¿Qué dato REAL desmiente este bulo?\n");
 
@@ -103,7 +103,7 @@ public class Juego {
         }
 
         System.out.println("\n══════════════════════════════════════════");
-        System.out.println("🏁 FIN DE LA PARTIDA");
+        System.out.println("FIN DE LA PARTIDA");
         System.out.println("   Puntuación final: " + puntuacion + " / " + TOTAL_RONDAS);
         System.out.println("══════════════════════════════════════════\n");
     }
