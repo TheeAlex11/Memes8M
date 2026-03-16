@@ -159,7 +159,7 @@ El juego presenta **5 rondas aleatorias**. En cada ronda:
 |       .gitkeep
 |       mejores.txt
 |
-\---tests
+\---tests/com/iescastelar
     |   TestGestorFicheros.java
     |   TestJuego.java
     |   TestMeme.java
