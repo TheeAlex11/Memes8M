@@ -138,7 +138,7 @@ El juego presenta **5 rondas aleatorias**. En cada ronda:
 |               search-page.js
 |               search.js
 |
-+---fuentes
++---fuentes/com/iescastelar
 |   |   GestorFicheros.java
 |   |   Juego.java
 |   |   Main.java
