@@ -166,10 +166,7 @@ El juego presenta **5 rondas aleatorias**. En cada ronda:
     |   TestPuntuacion.java
     |   TestRealidad.java
     |
-    \---lib
-            junit-jupiter-api-5.9.2.jar
-            junit-jupiter-engine-5.9.2.jar
-            junit-platform-console-standalone-1.9.2.jar
+    
 ```
 ## ⚙️ Compilar y Ejecutar
 
