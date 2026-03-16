@@ -41,7 +41,7 @@
 |----|----------------|--------------|-----------|
 | **TD1** | Manual de Instalación | Vicente | ✅ Terminado  |
 | **TD2** | Manual de Usuario | Izan | ✅ Terminado  |
-| **TD3** | Manual del Programador (Javadoc) | Alejandro | 🔄 Pendiente |
+| **TD3** | Manual del Programador (Javadoc) | Izan| ✅ Terminado |
 
 ---
 
