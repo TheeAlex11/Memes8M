@@ -11,8 +11,8 @@ public class TestGestorFicheros {
     public void testComprobarFicherosDatos() {
         try {
             GestorFicheros.comprobarFicherosDatos();
-        } catch (IOException e) {
-            fail("Faltan ficheros de datos: " + e.getMessage());
+        } catch (IOException excepcion) {
+            fail("Faltan ficheros de datos: " + excepcion.getMessage());
         }
     }
 
@@ -21,8 +21,8 @@ public class TestGestorFicheros {
         try {
             GestorFicheros.prepararResultados();
             assertTrue(Files.exists(Paths.get("resultados/mejores.txt")));
-        } catch (IOException e) {
-            fail("No se pudo preparar el directorio de resultados: " + e.getMessage());
+        } catch (IOException excepcion) {
+            fail("No se pudo preparar el directorio de resultados: " + excepcion.getMessage());
         }
     }
 
@@ -39,8 +39,8 @@ public class TestGestorFicheros {
             assertTrue(contenido.contains("Alice#150"));
             assertTrue(contenido.contains("Bob#120"));
             assertTrue(contenido.contains("Charlie#90"));
-        } catch (IOException e) {
-            fail("No se pudo guardar la puntuación: " + e.getMessage());
+        } catch (IOException excepcion) {
+            fail("No se pudo guardar la puntuación: " + excepcion.getMessage());
         }
     }
 }

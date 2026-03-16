@@ -40,9 +40,9 @@ public class GestorFicheros {
     public static void comprobarFicherosDatos() throws IOException {
         String[] archivos = {MEMES, REALIDADES, SOLUCIONES};
 
-        for (String a : archivos) {
-            if (!Files.exists(Paths.get(a))) {
-                throw new IOException("Falta el fichero: " + a);
+        for (String archivo : archivos) {
+            if (!Files.exists(Paths.get(archivo))) {
+                throw new IOException("Falta el fichero: " + archivo);
             }
         }
     }
@@ -78,9 +78,9 @@ public class GestorFicheros {
         List<Meme> memes = new ArrayList<>();
 
         for (String linea : Files.readAllLines(Paths.get(MEMES))) {
-            String[] p = linea.split("#");
-            if (p.length == 2) {
-                memes.add(new Meme(Integer.parseInt(p[0].trim()), p[1].trim()));
+            String[] partes = linea.split("#");
+            if (partes.length == 2) {
+                memes.add(new Meme(Integer.parseInt(partes[0].trim()), partes[1].trim()));
             }
         }
 
@@ -102,13 +102,13 @@ public class GestorFicheros {
         String texto = new String(Files.readAllBytes(Paths.get(REALIDADES)));
         JSONArray array = new JSONArray(texto);
 
-        for (int i = 0; i < array.length(); i++) {
-            JSONObject o = array.getJSONObject(i);
+        for (int indice = 0; indice < array.length(); indice++) {
+            JSONObject objeto = array.getJSONObject(indice);
             lista.add(new Realidad(
-                    o.getInt("id"),
-                    o.getString("texto"),
-                    o.getString("fuente"),
-                    o.getString("url")
+                    objeto.getInt("id"),
+                    objeto.getString("texto"),
+                    objeto.getString("fuente"),
+                    objeto.getString("url")
             ));
         }
 
@@ -132,10 +132,10 @@ public class GestorFicheros {
 
         NodeList lista = doc.getElementsByTagName("solucion");
 
-        for (int i = 0; i < lista.getLength(); i++) {
-            Element e = (Element) lista.item(i);
-           Integer meme = Integer.parseInt(e.getElementsByTagName("meme_id").item(0).getTextContent().trim());
-            Integer realidad = Integer.parseInt(e.getElementsByTagName("realidad_id").item(0).getTextContent().trim());
+        for (int indice = 0; indice < lista.getLength(); indice++) {
+            Element elemento = (Element) lista.item(indice);
+           Integer meme = Integer.parseInt(elemento.getElementsByTagName("meme_id").item(0).getTextContent().trim());
+            Integer realidad = Integer.parseInt(elemento.getElementsByTagName("realidad_id").item(0).getTextContent().trim());
             mapa.put(meme, realidad);
         }
 
@@ -156,9 +156,9 @@ public class GestorFicheros {
 
         for (String linea : Files.readAllLines(Paths.get(RESULTADOS))) {
             if (linea.isBlank()) continue;
-            String[] p = linea.split("#");
-            if (p.length == 2) {
-                lista.add(new Puntuacion(p[0].trim(), Integer.parseInt(p[1].trim())));
+            String[] partes = linea.split("#");
+            if (partes.length == 2) {
+                lista.add(new Puntuacion(partes[0].trim(), Integer.parseInt(partes[1].trim())));
             }
         }
 
@@ -173,8 +173,8 @@ public class GestorFicheros {
      */
     public static void guardarPuntuaciones(List<Puntuacion> lista) throws IOException {
         List<String> lineas = new ArrayList<>();
-        for (Puntuacion p : lista) {
-            lineas.add(p.toString());
+        for (Puntuacion puntuacion : lista) {
+            lineas.add(puntuacion.toString());
         }
         Files.write(Paths.get(RESULTADOS), lineas);
     }
