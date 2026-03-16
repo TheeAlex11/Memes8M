@@ -24,7 +24,7 @@ public class Meme {
      * @return id del meme.
      */
     public Integer getId() {
-        return id;
+        return this.id;
     }
 
     /**
@@ -32,7 +32,7 @@ public class Meme {
      * @return texto del meme.
      */
     public String getTexto() {
-        return texto;
+        return this.texto;
     }
 
     @Override
