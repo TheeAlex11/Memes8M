@@ -1,10 +1,6 @@
 # 🎮 PROYECTO Memes 8M
 
 > 🎓 Proyecto educativo desarrollado en Java para la asignatura de **DAW**
-
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Status](https://img.shields.io/badge/Estado-En%20Desarrollo-yellow?style=for-the-badge)
-
 ---
 
 ## 👥 Integrantes
